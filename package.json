@@ -1,0 +1,20 @@
+{
+  "name": "appsync-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/IShinkarenko/appsync-backend.git",
+  "author": "Ivan <ivan.shunkarenko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sls": "sls"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1041.0",
+    "serverless": "^2.66.2",
+    "serverless-appsync-plugin": "^1.12.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.8",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
